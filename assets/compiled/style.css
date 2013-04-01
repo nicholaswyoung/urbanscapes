@@ -550,7 +550,7 @@ section.content {
         section.content #about .profile-image {
           display: block;
           float: none;
-          margin: 0 auto 0 auto; } }
+          margin: 0 auto 1em auto; } }
       section.content #about .profile-image.nicholas-young {
         background: url(/assets/img/nicholas-young.jpg) center center no-repeat;
         background-size: cover; }

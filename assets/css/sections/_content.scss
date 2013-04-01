@@ -34,7 +34,7 @@ section.content {
 			@include media(max-width 600px) {
 				display: block;
 				float: none;
-				margin: 0 auto 0 auto;
+				margin: 0 auto 1em auto;
 			}
 			&.nicholas-young {
 				background: url(/assets/img/nicholas-young.jpg) center center no-repeat;
