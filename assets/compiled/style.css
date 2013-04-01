@@ -453,24 +453,28 @@ header.top .background {
       header.top .background .caption {
         font-size: .80em; } }
 
-nav.menu ul, nav.main ul {
-  float: right; }
-  nav.menu ul li, nav.main ul li {
-    display: inline-block;
-    margin-right: 1em;
-    font-size: .95em;
-    font-weight: 100;
-    line-height: 3.2em; }
-    nav.menu ul li.active a, nav.main ul li.active a {
-      text-decoration: underline; }
-    nav.menu ul li a, nav.main ul li a {
-      -webkit-transition: all, 0.1s;
-      -moz-transition: all, 0.1s;
-      -ms-transition: all, 0.1s;
-      -o-transition: all, 0.1s;
-      transition: all, 0.1s; }
-      nav.menu ul li a:hover, nav.main ul li a:hover {
-        opacity: .7; }
+@media screen and (min-width: 700px) {
+  nav.menu ul, nav.main ul {
+    float: right; } }
+@media screen and (max-width: 700px) {
+  nav.menu ul, nav.main ul {
+    display: block; } }
+nav.menu ul li, nav.main ul li {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: .95em;
+  font-weight: 100;
+  line-height: 3.2em; }
+  nav.menu ul li.active a, nav.main ul li.active a {
+    text-decoration: underline; }
+  nav.menu ul li a, nav.main ul li a {
+    -webkit-transition: all, 0.1s;
+    -moz-transition: all, 0.1s;
+    -ms-transition: all, 0.1s;
+    -o-transition: all, 0.1s;
+    transition: all, 0.1s; }
+    nav.menu ul li a:hover, nav.main ul li a:hover {
+      opacity: .7; }
 
 nav.main {
   *zoom: 1;
@@ -487,7 +491,6 @@ nav.main {
     clear: both; }
   nav.main a.logo {
     height: 35px;
-    display: inline-block;
     -webkit-transition: all, 0.2s;
     -moz-transition: all, 0.2s;
     -ms-transition: all, 0.2s;
@@ -495,13 +498,14 @@ nav.main {
     transition: all, 0.2s; }
     nav.main a.logo:hover {
       opacity: .6; }
-    nav.main a.logo h1 {
-      font-size: 1.2em;
-      display: inline-block; }
-      @media screen and (max-width: 700px) {
-        nav.main a.logo h1 {
-          font-size: 1em;
-          line-height: 1.2em; } }
+    @media screen and (min-width: 700px) {
+      nav.main a.logo h1 {
+        font-size: 1.2em;
+        float: left; } }
+    @media screen and (max-width: 700px) {
+      nav.main a.logo h1 {
+        font-size: 1em;
+        line-height: 1.2em; } }
   nav.main.background-barred {
     color: black; }
 
