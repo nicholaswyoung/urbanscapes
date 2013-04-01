@@ -558,7 +558,18 @@ section.content {
         background: url(/assets/img/lizzie-greco.jpg) center center no-repeat;
         background-size: cover; }
     section.content #about .bio {
-      border-bottom: 1px #999999 solid; }
+      border-bottom: 1px #999999 solid;
+      margin-bottom: 1em;
+      padding-bottom: 1em; }
+      section.content #about .bio:last-child {
+        border-bottom: none;
+        margin-bottom: none;
+        padding-bottom: 0; }
+      section.content #about .bio h2 {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0; }
+      section.content #about .bio p:last-child {
+        margin-bottom: 0; }
   section.content #events, section.content #press {
     display: block;
     float: left;
