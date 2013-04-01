@@ -359,14 +359,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/system\/lib\/files.php" : {
+    "\/assets\/css\/includes\/bourbon\/addons\/_retina-image.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/system\/lib\/files.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/css\/includes\/bourbon\/addons\/_retina-image.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/includes\/bourbon\/css\/_retina-image.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/css\/includes\/bourbon\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -430,15 +433,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/css\/includes\/bourbon\/addons\/_retina-image.scss" : {
+    "\/assets\/css\/includes\/neat\/grid\/_omega.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/includes\/bourbon\/addons\/_retina-image.scss",
+      "inputAbbreviatedPath" : "\/assets\/css\/includes\/neat\/grid\/_omega.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/includes\/bourbon\/css\/_retina-image.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/includes\/neat\/css\/_omega.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -487,17 +490,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/css\/includes\/neat\/grid\/_omega.scss" : {
+    "\/system\/lib\/files.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/includes\/neat\/grid\/_omega.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/includes\/neat\/css\/_omega.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/system\/lib\/files.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/js\/site.js" : {
       "ignoreWasSetByUser" : 0,
@@ -595,18 +595,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/css\/sections\/_header.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/sections\/_header.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/css\/_header.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/sections\/_footer.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -616,6 +604,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/css\/_footer.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/css\/sections\/_header.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/sections\/_header.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/css\/_header.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -705,17 +705,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/css\/includes\/bourbon\/css3\/_inline-block.scss" : {
+    "\/assets\/compiled\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/includes\/bourbon\/css3\/_inline-block.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/includes\/bourbon\/css\/_inline-block.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/assets\/compiled\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/assets\/img\/fade-25.png" : {
       "ignoreWasSetByUser" : 0,
@@ -728,14 +725,17 @@
       "initialSize" : 2784,
       "fileType" : 8192
     },
-    "\/site\/plugins\/index.html" : {
+    "\/assets\/css\/includes\/bourbon\/css3\/_inline-block.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/site\/plugins\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/css\/includes\/bourbon\/css3\/_inline-block.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/includes\/bourbon\/css\/_inline-block.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/css\/includes\/bourbon\/addons\/_timing-functions.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -758,14 +758,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/compiled\/style.css" : {
+    "\/site\/plugins\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/compiled\/style.css",
+      "inputAbbreviatedPath" : "\/site\/plugins\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/assets\/css\/sections\/_content.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1133,6 +1133,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/site\/snippets\/head.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/site\/snippets\/head.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/assets\/css\/includes\/neat\/grid\/_fill-parent.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1154,15 +1163,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/system\/lib\/variables.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/system\/lib\/variables.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/css\/includes\/neat\/grid\/_global-variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1175,12 +1175,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/site\/snippets\/head.php" : {
+    "\/system\/lib\/variables.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/site\/snippets\/head.php",
+      "inputAbbreviatedPath" : "\/system\/lib\/variables.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1226,17 +1226,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/logo-retina.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/logo-retina.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/logo-retina.png",
-      "initialSize" : 2780,
-      "fileType" : 8192
-    },
     "\/assets\/css\/includes\/neat\/grid\/_visual-grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1248,6 +1237,17 @@
       "outputAbbreviatedPath" : "\/assets\/css\/includes\/neat\/css\/_visual-grid.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/img\/logo-retina.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/logo-retina.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/logo-retina.png",
+      "initialSize" : 2780,
+      "fileType" : 8192
     },
     "\/assets\/css\/includes\/bourbon\/css3\/_appearance.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1308,15 +1308,6 @@
       "initialSize" : 237480,
       "fileType" : 4096
     },
-    "\/site\/plugins\/contactform\/contactform.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/site\/plugins\/contactform\/contactform.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/css\/includes\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1328,6 +1319,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/site\/plugins\/contactform\/contactform.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/site\/plugins\/contactform\/contactform.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/css\/includes\/bourbon\/css3\/_border-radius.scss" : {
       "ignoreWasSetByUser" : 0,
