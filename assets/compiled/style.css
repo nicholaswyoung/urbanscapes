@@ -434,13 +434,13 @@ header.top .background {
       background: url(../img/backgrounds/01.jpg) top center no-repeat;
       background-size: cover; }
     header.top .background .image.deep-dig {
-      background: url(../img/backgrounds/02.jpg) top center no-repeat;
+      background: url(../img/fade-25.png), url(../img/backgrounds/02.jpg) top center no-repeat;
       background-size: cover; }
     header.top .background .image.irradiated {
-      background: url(../img/backgrounds/03.jpg) top center no-repeat;
+      background: url(../img/fade-50.png), url(../img/backgrounds/03.jpg) top center no-repeat;
       background-size: cover; }
     header.top .background .image.spokes {
-      background: url(../img/backgrounds/04.jpg) top center no-repeat;
+      background: url(../img/fade-50.png), url(../img/backgrounds/04.jpg) top center no-repeat;
       background-size: cover; }
   header.top .background .caption {
     background: rgba(0, 0, 0, 0.5);
@@ -476,7 +476,10 @@ nav.main {
   *zoom: 1;
   border-bottom: 1px #999999 solid;
   padding-top: 1em;
-  padding-bottom: 1em; }
+  padding-bottom: 1em;
+  /*
+   * Tweaks for specific backgrounds.
+   */ }
   nav.main:before, nav.main:after {
     content: " ";
     display: table; }
@@ -495,6 +498,12 @@ nav.main {
     nav.main a.logo h1 {
       font-size: 1.2em;
       display: inline-block; }
+      @media screen and (max-width: 700px) {
+        nav.main a.logo h1 {
+          font-size: 1em;
+          line-height: 1.2em; } }
+  nav.main.background-barred {
+    color: black; }
 
 section.content {
   *zoom: 1;

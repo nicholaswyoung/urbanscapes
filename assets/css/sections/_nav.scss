@@ -35,6 +35,16 @@ nav.main {
 		h1 {
 			font-size: 1.2em;	
 			display: inline-block;
-		}	
+			@include media(max-width 700px) {
+				font-size: 1em;
+				line-height: 1.2em;
+			}
+		}
+	}
+	/*
+	 * Tweaks for specific backgrounds.
+	 */
+	&.background-barred {
+		color: black;
 	}
 }
