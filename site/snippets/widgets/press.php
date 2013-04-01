@@ -1,4 +1,4 @@
-<div class='widget press'>
+<div id='press' class='widget press'>
 	<h2 class='subhead'>Press</h2>
 	<ul class='basic-list'>
 		<?php $reviews = $pages->findByUID('press')->children() ?>

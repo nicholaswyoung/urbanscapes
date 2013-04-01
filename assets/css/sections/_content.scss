@@ -57,12 +57,12 @@ section.content {
 			p:last-child { margin-bottom: 0; }
 		}
 	}
-	#events, #press {
+	&.home aside.sidebar {
 		@include span-columns(3);
 	}
 
 	@include media(max-width 800px) {
-		#about, #events, #press {
+		#about, &.home aside.sidebar {
 			@include span-columns(12);
 		}
 	}
@@ -80,7 +80,7 @@ section.content {
 	 * Widgets
 	 */
 	.widget {
-		margin-bottom: 1em;
+		margin-bottom: 1.5em;
 		&:last-child { margin-bottom: 0; }
 
 		a.citation {
@@ -95,6 +95,25 @@ section.content {
 			&:last-child {
 				border-bottom: none;
 				padding-bottom: none;
+			}
+		}
+	}
+
+	.widget.newsletter {
+		form.madmimi {
+			input[type=email] {
+				border: none;
+				width: 80%;
+				background: #999;
+				padding: .5em;
+				color: black;
+			}
+			button {
+				margin-top: .75em;
+				display: block;
+				border: none;
+				background: #999;
+				padding: .5em;
 			}
 		}
 	}

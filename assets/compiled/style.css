@@ -579,27 +579,27 @@ section.content {
         padding: 0 0 0 0; }
       section.content #about .bio p:last-child {
         margin-bottom: 0; }
-  section.content #events, section.content #press {
+  section.content.home aside.sidebar {
     display: block;
     float: left;
     margin-right: 2.35765%;
     width: 23.23176%; }
-    section.content #events:last-child, section.content #press:last-child {
+    section.content.home aside.sidebar:last-child {
       margin-right: 0; }
   @media screen and (max-width: 800px) {
-    section.content #about, section.content #events, section.content #press {
+    section.content #about, section.content.home aside.sidebar {
       display: block;
       float: left;
       margin-right: 2.35765%;
       width: 100%; }
-      section.content #about:last-child, section.content #events:last-child, section.content #press:last-child {
+      section.content #about:last-child, section.content.home aside.sidebar:last-child {
         margin-right: 0; } }
   section.content ul.basic-list {
     list-style-type: none;
     padding: 0 0 0 0;
     margin: 0 0 0 0; }
   section.content .widget {
-    margin-bottom: 1em; }
+    margin-bottom: 1.5em; }
     section.content .widget:last-child {
       margin-bottom: 0; }
     section.content .widget a.citation {
@@ -610,6 +610,18 @@ section.content {
     section.content .widget.press ul li:last-child {
       border-bottom: none;
       padding-bottom: none; }
+  section.content .widget.newsletter form.madmimi input[type=email] {
+    border: none;
+    width: 80%;
+    background: #999;
+    padding: .5em;
+    color: black; }
+  section.content .widget.newsletter form.madmimi button {
+    margin-top: .75em;
+    display: block;
+    border: none;
+    background: #999;
+    padding: .5em; }
 
 body > footer {
   *zoom: 1;
