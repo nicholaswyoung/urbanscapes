@@ -547,6 +547,11 @@ section.content {
       margin: 0 0 1em 1em;
       box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
       border: 1px black solid; }
+      @media screen and (max-width: 600px) {
+        section.content #about .profile-image {
+          display: block;
+          float: none;
+          margin: 0 auto 0 auto; } }
       section.content #about .profile-image.nicholas-young {
         background: url(/assets/img/nicholas-young.jpg) center center no-repeat; }
       section.content #about .profile-image.lizzie-greco {
