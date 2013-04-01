@@ -1,0 +1,87 @@
+section.content {
+	@include clearfix();
+	@extend .constrain;
+	p {
+		font-size: 1em;
+		font-weight: 100;
+		line-height: 1.6em;
+		a { text-decoration: underline; }
+	}
+	h2 {
+		font-size: 1.2em;
+	}
+	h2.subhead, h3.subhead {
+		border-bottom: 1px #333 solid;
+		padding-bottom: .75em;
+	}
+	
+	/*
+	 * Sections
+	 */
+	#about {
+		@include clearfix();
+		@include span-columns(6);
+		.profile-image {
+			display: inline-block;
+			width: 200px;
+			height: 200px;
+			max-width: 200px;
+			float: right;
+			border-radius: 200px;
+			background-size: 200px;
+			margin: 0 0 1em 1em;
+			box-shadow: 2px 2px 10px rgba(255, 255, 255, .10);
+			border: 1px black solid;
+			&.nicholas-young {
+				background: url(/assets/img/nicholas-young.jpg) center center no-repeat;
+			}
+			&.lizzie-greco {
+				background: url(/assets/img/lizzie-greco.jpg) center center no-repeat;
+			}
+		}
+		.bio {
+			border-bottom: 1px #999 solid;
+		}
+	}
+	#events, #press {
+		@include span-columns(3);
+	}
+
+	@include media(max-width 800px) {
+		#about, #events, #press {
+			@include span-columns(12);
+		}
+	}
+
+	/*
+	 * Lists
+	 */
+	ul.basic-list {
+		list-style-type: none;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+	}
+
+	/*
+	 * Widgets
+	 */
+	.widget {
+		margin-bottom: 1em;
+		&:last-child { margin-bottom: 0; }
+
+		a.citation {
+			font-size: .96em;
+		}
+	}
+
+	.widget.press {
+		ul li {
+			border-bottom: 1px black solid;
+			padding-bottom: 1em;
+			&:last-child {
+				border-bottom: none;
+				padding-bottom: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+nav.menu {
+	ul {
+		float: right;
+		li {
+			display: inline-block;
+			margin-right: 1em;
+			font-size: .95em;
+			font-weight: 100;
+			line-height: 3.2em;
+			&.active { a { text-decoration: underline; } }	
+			a {
+				@include transition(all, .1s);
+				&:hover {
+					opacity: .7;
+				}
+			}
+		}
+	}
+}
+
+nav.main {
+	@include clearfix();
+	@extend nav.menu;
+	@extend .constrain;
+	border-bottom: 1px #999 solid;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	a.logo {
+		height: 35px;
+		display: inline-block;
+		@include transition(all, .2s);
+		&:hover {
+			opacity: .6;
+		}
+		h1 {
+			font-size: 1.2em;	
+			display: inline-block;
+		}	
+	}
+}

@@ -1,0 +1,5 @@
+web1: 
+  name: urbanscapes
+  php_extensions: 
+    - mbstring
+    - eaccelerator
