@@ -1,5 +1,4 @@
 <?php snippet('head') ?>
-<?php snippet('noscript') ?>
 <header class='top<?php ecco($page->class(), " {$page->class()}") ?>'>
 	<?php 
 		$images = array(
