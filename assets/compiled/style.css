@@ -614,6 +614,8 @@ section.content {
     section.content .widget.press ul li:last-child {
       border-bottom: none;
       padding-bottom: none; }
+  section.content .widget.press a.citation {
+    line-height: 1.6em; }
   section.content .widget.newsletter form.madmimi input[type=email] {
     border: none;
     width: 80%;
