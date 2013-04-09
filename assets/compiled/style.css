@@ -606,8 +606,9 @@ section.content {
     float: left;
     margin-right: 2.35765%;
     width: 48.82117%;
+    position: relative;
     background: #333;
-    padding: .4em; }
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.8); }
     section.content.gallery .photo:last-child {
       margin-right: 0; }
     @media screen and (max-width: 700px) {
@@ -625,9 +626,17 @@ section.content {
     section.content.gallery .photo.dig, section.content.gallery .photo.spokes {
       margin-right: 0; }
     section.content.gallery .photo img {
-      max-width: 100%;
-      margin: 0 0 0 0;
-      padding: 0 0 0 0; }
+      max-width: 100%; }
+    section.content.gallery .photo .meta {
+      width: 100%;
+      bottom: 0px;
+      left: 0px;
+      position: absolute;
+      padding: 1em;
+      background: rgba(0, 0, 0, 0.6); }
+      section.content.gallery .photo .meta h3 {
+        float: left;
+        margin: 0 0 0 0; }
   section.content ul.basic-list {
     list-style-type: none;
     padding: 0 0 0 0;

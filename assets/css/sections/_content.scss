@@ -79,10 +79,21 @@ section.content {
 			}
 			@include media(min-width 700px) { margin-bottom: 1.5em; }
 			&.dig, &.spokes { @include omega(); }
+			position: relative;
 			background: #333;
-			padding: .4em;
-			img { max-width: 100%; margin: 0 0 0 0; padding: 0 0 0 0; }
+			box-shadow: 0px 5px 30px rgba(0, 0, 0, .8);
+			img { max-width: 100%; }
 			.meta {
+				width: 100%;
+				bottom: 0px;
+				left: 0px;
+				position: absolute;
+				padding: 1em;
+				background: rgba(0, 0, 0, .6);
+				h3 {
+					float: left;
+					margin: 0 0 0 0;
+				}
 			}
 		}
 	}
