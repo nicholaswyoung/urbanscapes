@@ -5,4 +5,8 @@
 		<?php snippet('gallery/photo', array('photo' => $photo)) ?>
 	<?php endforeach ?>
 </section>
+<form class='cart' action=''>
+	<input type='hidden' class='items' value='' />
+	<button class='checkout'>Checkout</button>
+</form>
 <?php snippet('footer') ?>

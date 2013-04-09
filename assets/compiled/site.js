@@ -9598,13 +9598,34 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 
 /* **********************************************
+     Begin cart.js
+********************************************** */
+
+var ShoppingCart = window.ShoppingCart = function () {
+	this.items = [];
+};
+
+ShoppingCart.prototype.add = function (item) {
+	this.items.push(item);
+};
+
+/* **********************************************
      Begin site.js
 ********************************************** */
 
 // @codekit-prepend jquery.js
+// @codekit-prepend lib/cart.js
+
+window.Cart = new ShoppingCart();
 
 $(document).ready(function () {
 	$('.content.gallery img').on('dragstart', function (event) {
 		event.preventDefault();
+	});
+	
+	$('button.add').click(function (event) {
+		event.preventDefault();
+		Cart.add($(this).data('id'));
+		$('.cart .items').attr('value', new String(Cart.items));
 	});
 });
