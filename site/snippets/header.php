@@ -13,7 +13,11 @@
 		<?php snippet('header-background', array('current_image' => $images[$current_image])) ?>
 	<?php endif ?>
 	<div class='wrap'>
+		<?php if ($page->url() == url()): ?>
 		<nav class='main background-<?php echo $images[$current_image]['class'] ?>'>
+		<?php else: ?>
+		<nav class='main'>
+		<?php endif ?>
 			<a class='logo' href='<?php echo url() ?>'>
 				<h1><?php echo $site->title() ?>: <?php echo $site->subtitle() ?></h1>
 			</a>

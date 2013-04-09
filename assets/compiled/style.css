@@ -649,7 +649,7 @@ section.content {
   section.content .widget.newsletter form.madmimi input[type=email] {
     border: none;
     width: 80%;
-    background: #999;
+    background: rgba(255, 255, 255, 0.4);
     padding: .5em;
     color: black; }
   section.content .widget.newsletter form.madmimi button {
