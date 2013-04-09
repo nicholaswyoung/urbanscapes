@@ -66,6 +66,26 @@ section.content {
 			@include span-columns(12);
 		}
 	}
+	
+	/*
+	 * Gallery
+	 */
+	&.gallery {
+		.photo {
+			@include span-columns(6);
+			@include media(max-width 700px) {
+				@include span-columns(12);
+				margin-bottom: 1em;
+			}
+			@include media(min-width 700px) { margin-bottom: 1.5em; }
+			&.dig, &.spokes { @include omega(); }
+			background: #333;
+			padding: .4em;
+			img { max-width: 100%; margin: 0 0 0 0; padding: 0 0 0 0; }
+			.meta {
+			}
+		}
+	}
 
 	/*
 	 * Lists

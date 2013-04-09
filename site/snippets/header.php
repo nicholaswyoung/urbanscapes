@@ -9,7 +9,9 @@
 		);
 		$current_image = array_rand($images);
 	?>
-	<?php snippet('header-background', array('current_image' => $images[$current_image])) ?>
+	<?php if ($page->url() == url()): ?>
+		<?php snippet('header-background', array('current_image' => $images[$current_image])) ?>
+	<?php endif ?>
 	<div class='wrap'>
 		<nav class='main background-<?php echo $images[$current_image]['class'] ?>'>
 			<a class='logo' href='<?php echo url() ?>'>

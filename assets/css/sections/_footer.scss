@@ -8,9 +8,9 @@ body > footer {
 	span.copyright {
 		float: left;
 		font-size: .75em;
-		@include media(max-width 600px) { display: block; float: none; }
+		@include media(max-width 700px) { display: block; float: none; }
 	}
 	ul.menu {
-		@include media(max-width 600px) { display: block; float: none; }
+		@include media(max-width 700px) { display: block; float: none; }
 	}
 }
