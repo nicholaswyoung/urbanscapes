@@ -6,7 +6,7 @@
 				<?php echo html($page->title()) ?>
 			</a>
 		<?php else: ?>
-			<a<?php ecco($page->isOpen(), " class='active'") ?> href='#<?php echo $page->uid() ?>'>
+			<a<?php ecco($page->isOpen(), " class='active'") ?> href='/#<?php echo $page->uid() ?>'>
 				<?php echo html($page->title()) ?>
 			</a>
 		<?php endif ?>
