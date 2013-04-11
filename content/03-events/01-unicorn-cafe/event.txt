@@ -1,6 +1,8 @@
 title: Unicorn Cafe
 ----
-date: 05/01/2013
+date: 05/03/2013
+----
+time: 6:30pm
 ----
 city: Evanston
 ----
@@ -9,4 +11,4 @@ state: IL
 link: http://www.unicorncafe.com
 ----
 text:
-The Unicorn Cafe proudly presents our gallery opening and run through the entire month of May. Come have a hot beverage and see the unveiling of _Urbanscapes_!
+(link: http://www.unicorncafe.com/ text: The Unicorn Cafe) proudly presents our gallery opening and run through the entire month of May. Come have a hot beverage and see the unveiling of _Urbanscapes_!
