@@ -1,3 +1,0 @@
-title: Irradiated
-----
-id: urbanscapes-irradiated
