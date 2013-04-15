@@ -1,5 +1,14 @@
 <?php snippet('header') ?>
 <section class='content gallery'>
+	<nav class='gallery-type'>
+		<ul>
+			<?php foreach($page->children as $child): ?>
+			<li>
+				<a href='<?php echo $child->url() ?>'><?php echo $child->title() ?></a>
+			</li>
+			<?php endforeach ?>
+		</ul>
+	</nav>
 	<div class='photo barred'>
 		<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/69Fpb/embed?style=modal' width='355' height='325' frameborder='0' style='max-width:100%;' scrolling='no'></iframe>
 	</div>
