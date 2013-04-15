@@ -75,37 +75,11 @@ section.content {
 			@include span-columns(6);
 			@include media(max-width 900px) {
 				@include span-columns(12);
-				margin-bottom: 1em;
 			}
-			@include media(min-width 700px) { margin-bottom: 1.5em; }
+			@include media(min-width 800px) {
+				margin-bottom: -1em;
+			}
 			&.dig, &.spokes { @include omega(); }
-			position: relative;
-			background: #333;
-			box-shadow: 0px 5px 30px rgba(0, 0, 0, .8);
-			img { max-width: 100%; }
-			.meta {
-				width: 100%;
-				bottom: 0px;
-				left: 0px;
-				position: absolute;
-				padding: 1em;
-				background: rgba(0, 0, 0, .6);
-				h3 {
-					float: left;
-					margin: 0 0 0 0;
-				}
-				button.add {
-					background: rgba(0, 0, 0, .3);
-					border: 1px #999 solid;
-					padding: .5em;
-					color: white;
-					border-radius: 5px;
-					float: right;
-					&:hover {
-						background: rgba(255, 255, 255, .2);
-					}
-				}
-			}
 		}
 	}
 

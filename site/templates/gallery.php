@@ -1,12 +1,17 @@
 <?php snippet('header') ?>
 <section class='content gallery'>
-	<?php foreach($page->images() as $photo): ?>
-		<?php if ($photo->name() == 'header') continue ?>
-		<?php snippet('gallery/photo', array('photo' => $photo)) ?>
-	<?php endforeach ?>
+	<div class='photo barred'>
+		<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/69Fpb/embed?style=modal' width='355' height='325' frameborder='0' style='max-width:100%;' scrolling='no'></iframe>
+	</div>
+	<div class='photo dig'>
+		<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/69Fpb/embed?style=modal' width='355' height='325' frameborder='0' style='max-width:100%;' scrolling='no'></iframe>
+	</div>
+	<div class='photo irradiated'>
+		<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/69Fpb/embed?style=modal' width='355' height='325' frameborder='0' style='max-width:100%;' scrolling='no'></iframe>
+	</div>
+	<div class='photo spokes'>
+		<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/69Fpb/embed?style=modal' width='355' height='325' frameborder='0' style='max-width:100%;' scrolling='no'></iframe>
+	</div>
 </section>
-<form class='cart' action=''>
-	<input type='hidden' class='items' value='' />
-	<button class='checkout'>Checkout</button>
-</form>
+<script src='https://www.shoplocket.com/assets/widgets/embed.js' type='text/javascript'></script>
 <?php snippet('footer') ?>

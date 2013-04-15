@@ -9598,34 +9598,37 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 
 /* **********************************************
-     Begin cart.js
+     Begin fluid-iframe.js
 ********************************************** */
 
-var ShoppingCart = window.ShoppingCart = function () {
-	this.items = [];
-};
-
-ShoppingCart.prototype.add = function (item) {
-	this.items.push(item);
-};
+$(function () {
+	var $allFrames = $('iframe.shoplocket-embed'),
+		 $fluidEl 	= $('div.photo');
+		 
+	$allFrames.each(function () {
+		$(this).data('aspectRatio', this.height / this.width).removeAttr('height').removeAttr('width');
+	});
+	
+	$(window).resize(function () {
+		var newWidth = $fluidEl.width();
+		$allFrames.each(function () {
+			var $el = $(this);
+			$el.width(newWidth).height(newWidth * $el.data('aspectRatio'));
+		})
+	}).resize();
+});
 
 /* **********************************************
      Begin site.js
 ********************************************** */
 
 // @codekit-prepend jquery.js
-// @codekit-prepend lib/cart.js
+// @codekit-prepend lib/fluid-iframe.js
 
 window.Cart = new ShoppingCart();
 
 $(document).ready(function () {
 	$('.content.gallery img').on('dragstart', function (event) {
 		event.preventDefault();
-	});
-	
-	$('button.add').click(function (event) {
-		event.preventDefault();
-		Cart.add($(this).data('id'));
-		$('.cart .items').attr('value', new String(Cart.items));
 	});
 });
