@@ -634,6 +634,9 @@ section.content {
         border-bottom: none; }
       section.content.gallery aside.sidebar nav.gallery-type ul li.title {
         font-weight: bold; }
+    section.content.gallery aside.sidebar p {
+      font-size: .90em;
+      margin-top: 2em; }
   section.content.gallery .main {
     display: block;
     float: left;

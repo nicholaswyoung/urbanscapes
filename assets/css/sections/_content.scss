@@ -96,6 +96,10 @@ section.content {
 					}
 				}
 			}
+			p {
+				font-size: .90em;
+				margin-top: 2em;
+			}
 		}
 		.main {
 			@include span-columns(10);

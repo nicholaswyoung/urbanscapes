@@ -13,6 +13,9 @@
 					<a href='/gallery/type:packages'>Special Packages</a>
 				</li>
 			</ul>
+			<p>
+				Note: Since all frames are handmade, shipping may take up to two weeks.
+			</p>
 		</nav>
 	</aside>
 	<div class='main'>
