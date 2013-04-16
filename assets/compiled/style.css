@@ -601,26 +601,71 @@ section.content {
       width: 100%; }
       section.content #about:last-child, section.content.home aside.sidebar:last-child {
         margin-right: 0; } }
-  section.content.gallery .photo {
+  section.content.gallery aside.sidebar {
     display: block;
     float: left;
     margin-right: 2.35765%;
-    width: 48.82117%; }
-    section.content.gallery .photo:last-child {
+    width: 14.70196%; }
+    section.content.gallery aside.sidebar:last-child {
       margin-right: 0; }
     @media screen and (max-width: 900px) {
-      section.content.gallery .photo {
+      section.content.gallery aside.sidebar {
         display: block;
         float: left;
         margin-right: 2.35765%;
         width: 100%; }
-        section.content.gallery .photo:last-child {
+        section.content.gallery aside.sidebar:last-child {
           margin-right: 0; } }
-    @media screen and (min-width: 800px) {
-      section.content.gallery .photo {
-        margin-bottom: -1em; } }
-    section.content.gallery .photo.dig, section.content.gallery .photo.spokes {
+    section.content.gallery aside.sidebar a {
+      text-decoration: underline; }
+    @media screen and (max-width: 900px) {
+      section.content.gallery aside.sidebar nav.gallery-type {
+        border-bottom: 1px black solid;
+        margin-bottom: 1em;
+        padding-bottom: 1em; } }
+    section.content.gallery aside.sidebar nav.gallery-type ul li {
+      display: block;
+      margin-bottom: .5em;
+      padding-bottom: .5em;
+      border-bottom: 1px #333333 solid; }
+      section.content.gallery aside.sidebar nav.gallery-type ul li:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none; }
+      section.content.gallery aside.sidebar nav.gallery-type ul li.title {
+        font-weight: bold; }
+  section.content.gallery .main {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 82.94039%; }
+    section.content.gallery .main:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 900px) {
+      section.content.gallery .main {
+        display: block;
+        float: left;
+        margin-right: 2.35765%;
+        width: 100%; }
+        section.content.gallery .main:last-child {
+          margin-right: 0; } }
+    section.content.gallery .main .photo {
+      display: block;
+      float: left;
+      margin-right: 2.84259%;
+      width: 48.57871%; }
+      section.content.gallery .main .photo:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 900px) {
+        section.content.gallery .main .photo {
+          display: block;
+          float: left;
+          margin-right: 2.35765%;
+          width: 100%; }
+          section.content.gallery .main .photo:last-child {
+            margin-right: 0; } }
+      section.content.gallery .main .photo.dig, section.content.gallery .main .photo.spokes {
+        margin-right: 0; }
   section.content ul.basic-list {
     list-style-type: none;
     padding: 0 0 0 0;

@@ -71,15 +71,42 @@ section.content {
 	 * Gallery
 	 */
 	&.gallery {
-		.photo {
-			@include span-columns(6);
-			@include media(max-width 900px) {
-				@include span-columns(12);
+		aside.sidebar {
+			@include span-columns(2);
+			@include media(max-width 900px) { @include span-columns(12); }
+			a { text-decoration: underline; }
+			nav.gallery-type {
+				@include media(max-width 900px) {
+					border-bottom: 1px black solid;
+					margin-bottom: 1em;
+					padding-bottom: 1em;
+				}
+				ul li {
+					display: block;
+					margin-bottom: .5em;
+					padding-bottom: .5em;
+					border-bottom: 1px #333 solid;
+					&:last-child {
+						margin-bottom: 0;
+						padding-bottom: 0;
+						border-bottom: none;
+					};
+					&.title {
+						font-weight: bold;
+					}
+				}
 			}
-			@include media(min-width 800px) {
-				margin-bottom: -1em;
+		}
+		.main {
+			@include span-columns(10);
+			@include media(max-width 900px) { @include span-columns(12); }
+			.photo {
+				@include span-columns(5 of 10);
+				@include media(max-width 900px) {
+					@include span-columns(12);
+				}
+				&.dig, &.spokes { @include omega(); }
 			}
-			&.dig, &.spokes { @include omega(); }
 		}
 	}
 

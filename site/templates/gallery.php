@@ -1,25 +1,27 @@
 <?php snippet('header') ?>
 <section class='content gallery'>
-	<nav class='gallery-type'>
-		<ul>
-			<?php foreach($page->children as $child): ?>
-			<li>
-				<a href='<?php echo $child->url() ?>'><?php echo $child->title() ?></a>
-			</li>
-			<?php endforeach ?>
-		</ul>
-	</nav>
-	<div class='photo barred'>
-		<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/69Fpb/embed?style=modal' width='355' height='325' frameborder='0' style='max-width:100%;' scrolling='no'></iframe>
-	</div>
-	<div class='photo dig'>
-		<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/Z30mF/embed?style=modal' width='355' height='325' frameborder='0' style='max-width:100%;' scrolling='no'></iframe>
-	</div>
-	<div class='photo irradiated'>
-		<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/vdE6y/embed?style=modal' width='355' height='325' frameborder='0' style='max-width:100%;' scrolling='no'></iframe>
-	</div>
-	<div class='photo spokes'>
-		<iframe class='shoplocket-embed' src='https://www.shoplocket.com/products/cr6xo/embed?style=modal' width='355' height='325' frameborder='0' style='max-width:100%;' scrolling='no'></iframe>
+	<aside class='sidebar'>
+		<nav class='gallery-type'>
+			<ul>
+				<li class='title'>
+					Purchasing Options
+				</li>
+				<li>
+					<a href='/gallery/type:individual'>Individual Photos</a>
+				</li>
+				<li>
+					<a href='/gallery/type:packages'>Special Packages</a>
+				</li>
+			</ul>
+		</nav>
+	</aside>
+	<div class='main'>
+		<?php if (!$site->uri->params('type') || $site->uri->params('type') == 'individual'): ?>
+			<?php snippet('gallery/individual') ?>
+		<?php endif ?>
+		<?php if ($site->uri->params('type') == 'packages'): ?>
+			<?php snippet('gallery/packages') ?>
+		<?php endif ?>
 	</div>
 </section>
 <script src='https://www.shoplocket.com/assets/widgets/embed.js' type='text/javascript'></script>
