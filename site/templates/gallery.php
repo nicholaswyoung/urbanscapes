@@ -14,7 +14,7 @@
 				</li>
 			</ul>
 			<p>
-				Note: Since all frames are handmade, shipping may take up to two weeks.
+				Note: Since all frames are handmade, shipping may take up to two weeks. If you're in Chicago, please indicate that you want to pick up the order.
 			</p>
 		</nav>
 	</aside>
