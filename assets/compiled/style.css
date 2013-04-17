@@ -664,10 +664,11 @@ section.content {
           display: block;
           float: left;
           margin-right: 2.35765%;
-          width: 100%; }
+          width: 100%;
+          margin-bottom: 1em; }
           section.content.gallery .main .photo:last-child {
             margin-right: 0; } }
-      section.content.gallery .main .photo.dig, section.content.gallery .main .photo.spokes {
+      section.content.gallery .main .photo.dig, section.content.gallery .main .photo.spokes, section.content.gallery .main .photo.collection-two, section.content.gallery .main .photo.series-one {
         margin-right: 0; }
   section.content ul.basic-list {
     list-style-type: none;

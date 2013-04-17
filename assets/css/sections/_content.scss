@@ -108,8 +108,9 @@ section.content {
 				@include span-columns(5 of 10);
 				@include media(max-width 900px) {
 					@include span-columns(12);
+					margin-bottom: 1em;
 				}
-				&.dig, &.spokes { @include omega(); }
+				&.dig, &.spokes, &.collection-two, &.series-one { @include omega(); }
 			}
 		}
 	}
