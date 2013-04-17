@@ -679,6 +679,8 @@ section.content {
       margin-bottom: 0; }
     section.content .widget a.citation {
       font-size: .96em; }
+    section.content .widget a.rsvp {
+      text-decoration: underline; }
   section.content .widget.press ul li {
     border-bottom: 1px black solid;
     padding-bottom: 1em; }

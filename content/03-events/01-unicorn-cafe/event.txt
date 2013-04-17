@@ -8,7 +8,7 @@ city: Evanston
 ----
 state: IL
 ----
-link: http://www.unicorncafe.com
+link: http://urbanscapes.eventbrite.com
 ----
 text:
-(link: http://www.unicorncafe.com/ text: The Unicorn Cafe) proudly presents our gallery opening and run through the entire month of May. Come have a hot beverage and see the unveiling of _Urbanscapes_!
+(link: http://www.unicorncafe.com/ text: The Unicorn Cafe) proudly presents our gallery opening and run through the entire month of May. Come have a hot beverage and see the unveiling of _Urbanscapes_. (link: http://urbanscapes.eventbrite.com text: RSVP) now!
