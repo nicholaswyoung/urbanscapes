@@ -16,6 +16,9 @@
 			<p>
 				Note: Since all frames are handmade, shipping may take up to two weeks. If you're in Chicago, please indicate that you want to pick up the order.
 			</p>
+			<p>
+				Your payment details are protected using SSL thanks to our friends at ShopLocket. Buy with confidence!
+			</p>
 		</nav>
 	</aside>
 	<div class='main'>
